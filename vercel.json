@@ -1,0 +1,12 @@
+{
+    "builds": [
+        {
+            "src": "outlook_api.py",
+            "use": "@vercel/python",
+            "config": { "maxLambdaSize": "15mb" }
+        }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "outlook_api.py" }
+    ]
+}
