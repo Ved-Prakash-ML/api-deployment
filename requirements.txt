@@ -2,4 +2,5 @@ uvicorn
 requests
 fastapi
 pydantic
-servicenow_integration
+
+
