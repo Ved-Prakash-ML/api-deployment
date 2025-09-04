@@ -2,5 +2,7 @@ uvicorn
 requests
 fastapi
 pydantic
-
-
+dotenv
+azure-identity
+azure-ai-projects
+openai
